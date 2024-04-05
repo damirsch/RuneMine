@@ -1,0 +1,27 @@
+.main{
+  margin-top: 29px;
+}
+
+.multisig{
+  width: 100%;
+}
+
+.multisig__description{
+  display: flex;
+  color: #FFFFFF99;
+}
+
+.multisig__img{
+  margin: 0 9px;
+}
+
+.multisig__title{
+  margin: 16px 0 32px;
+}
+
+.multisig__button{
+  width: 100%;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 24px 0;
+}
