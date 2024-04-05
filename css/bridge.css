@@ -1,0 +1,101 @@
+.main{
+	display: flex;
+	justify-content: center;
+	margin-top: 12px;
+}
+
+.bridge{
+	width: 490px;
+	margin-bottom: 136px;
+}
+
+.bridge__items article:not(:last-child){
+	margin-bottom: 8px;
+}
+
+.bridge-card__pretitle{
+	display: flex;
+	align-items: center;
+}
+
+.bridge-card__pretitle p{
+	color: #FFFFFFCC;
+	margin-right: 8px;
+}
+
+.bridge-card__pretitle .bridge-card__button{
+	display: flex;
+	align-items: center;
+	padding: 4px 8px 4px 4px;
+	border-radius: 1200px;
+	font-weight: 500;
+	color: #FFFFFF99;
+}
+
+.bridge-card__img.crypto{
+	margin-right: 4px;
+}
+
+.bridge-card__img.arrow{
+	margin-left: 8px;
+}
+
+.bridge-card__title{
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.bridge-card__title .bridge-card__button{
+	margin-left: 4px;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+.bridge-card__description{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 48px;
+	color: #FFFFFF99;
+}
+
+.bridge-card__description span:first-child{
+	margin-right: 2px;
+	font-weight: 510;
+}
+
+.bridge-card__description .bridge-card__img{
+	width: 16px;
+	height: 12px;
+}
+
+.bridge__button{
+	margin-top: 16px;
+	background-color: #F35C21;
+	border: none;
+	border-radius: 12px;
+	width: 100%;
+	padding: 24px 0;
+}
+
+.bridge__info{
+	width: 100%;
+	font-size: 14px;
+	margin-top: 112px;
+	padding-top: 12px;
+}
+
+.bridge__info div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bridge__info div:not(:last-child){
+	margin-bottom: 16px;
+}
+
+.bridge__info div p:first-child{
+	color: #FFFFFF99;
+}
