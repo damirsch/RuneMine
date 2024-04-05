@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap" rel="stylesheet">
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<aside class="sidebar">
+				<div class="sidebar__wrapper">
+					<a class="sidebar__logo" href="#">
+						<div>
+							<img src="img/black-square.svg" alt="" draggable="false">
+							<img src="img/black-foreground-logo.png" alt="" draggable="false">
+						</div>
+						<span>RuneMine</span>
+					</a>
+					<ul class="sidebar__navigation">
+						<li class="sidebar__item">
+							<a class="active" href="/portfolio.html">
+								<div class="sidebar__image-wrapper">
+									<img src="img/wallet-active.svg" alt="" draggable="false">
+								</div>
+								<span>Portfolio</span>
+							</a>
+						</li>
+						<li class="sidebar__item">
+							<a href="/marketplace.html">
+								<div class="sidebar__image-wrapper">
+									<img src="img/marketplace.svg" alt="" draggable="false">
+								</div>Marketplace
+							</a>
+						</li>
+						<li class="sidebar__item">
+							<a href="/bridge.html">
+								<div class="sidebar__image-wrapper">
+									<img src="img/bridge.svg" alt="" draggable="false">
+								</div>Bridge
+							</a>
+						</li>
+						<li class="sidebar__item">
+							<a href="/multisig.html">
+								<div class="sidebar__image-wrapper">
+									<img src="img/multisig.svg" alt="" draggable="false">
+								</div>Multisig
+							</a>
+						</li>
+						<li class="sidebar__item">
+							<a href="/points.html">
+								<div class="sidebar__image-wrapper">
+									<img src="img/points.svg" alt="" draggable="false">
+								</div>Points
+							</a>
+						</li>
+					</ul>
+				</div>
+				<footer class="sidebar__footer">
+					<div class="sidebar__footer-item" >
+						<a href="#">X (Twitter)<a style="margin-left: 24px;" href="#">Discord</a></a>
+					</div>
+					<div class="sidebar__footer-item" >
+						<a href="#">Privacy Policy</a>
+					</div>
+					<div class="sidebar__footer-item">
+						<a href="#">Terms of Service</a>
+					</div>
+				</footer>
+			</aside>
+			<div class="right-block">
+				<nav class="nav">
+					<input class="nav__input close" type="text" name="" id="">
+					<div class="nav__block">
+						<img class="nav__img" src="img/avatar.svg" alt="" draggable="false">
+						<div class="nav__text">bc1qfj...98k0</div>
+					</div>
+				</nav>
+				<main class="main">
+					<article class="info">
+						<div class="info__logo">
+							<div class="info__square">
+								<img class="info__img" src="img/orange-foreground-logo.png" alt="" draggable="false">
+							</div>
+						</div>
+						<div class="info__wrapper">
+							<p class="gray">bc1qfj...98k0</p>
+							<h1 class="info__title"><span class="gray">$</span> 92,302.92</h1>
+							<div class="info__block">
+								<p class="green">+$12,922.40</p>
+								<p class="green">+14.3%</p>
+								<p class="gray">(24h)</p>
+							</div>
+						</div>
+					</article>
+					<div class="history-allocation">
+						<article class="history widget">
+							<div class="history__item">
+								<h2 class="history__title">History</h2>
+								<div class="history__buttons">
+									<button class="default-btn">24h</button>
+									<button class="default-btn close">7d</button>
+									<button class="default-btn close">30d</button>
+									<button class="default-btn close">90d</button>
+									<button class="default-btn close">all</button>
+								</div>
+							</div>
+							<div class="bitcoin__chart">
+								<canvas id="bitcoinChart" width="630px" height="205px"></canvas>
+							</div>
+							<div class="history__item gray font-small">
+								<p>4:00PM</p>
+								<p>8:00PM</p>
+								<p>2</p>
+								<p>4:00PM</p>
+								<p>8:00PM</p>
+							</div>
+						</article>
+						<article class="allocation widget">
+							<div class="allocation__wrapper">
+								<div class="allocation__chart">
+									<canvas id="allocationChart"></canvas>
+								</div>
+								<!-- <img src="./img/radial-graphic.svg" alt="" draggable="false" draggable="false"> -->
+								<div class="allocation__block">
+									<p class="allocation__title">Allocation</p>
+									<div class="allocation__description">
+										<div class="allocation__element">
+											<div class="allocation__circle blue"></div>
+											<div>AUSY</div>
+										</div>
+										<p>33.33%</p>
+									</div>
+									<div class="allocation__description">
+										<div class="allocation__element">
+											<div class="allocation__circle green"></div>
+											<div>ISE</div>
+										</div>
+										<p>33.33%</p>
+									</div>
+									<div class="allocation__description">
+										<div class="allocation__element">
+											<div class="allocation__circle yellow"></div>
+											<div>WW</div>
+										</div>
+										<p>15.65%</p>
+									</div>
+									<div class="allocation__description">
+										<div class="allocation__element">
+											<div class="allocation__circle orange"></div>
+											<div>ULTI</div>
+										</div>
+										<p>10.22%</p>
+									</div>
+									<div class="allocation__description">
+										<div class="allocation__element">
+											<div class="allocation__circle violet"></div>
+											<div>RUN·THE·B</div>
+										</div>
+										<p>7.62%</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<article class="assets">
+						<div class="title-with-lines">
+							<div class="title-with-lines__item"></div>
+							<h2>Assets</h2>
+							<div class="title-with-lines__item"></div>
+						</div>
+						<div class="assets__wrapper">
+							<div class="assets__block widget">
+								<div class="assets__row">
+									<div class="assets__logo">A</div>
+									<div class="assets__items">
+										<div class="assets__item">
+											<p>AUSY</p>
+											<p>
+												<span class="gray">$23.42</span>
+												<span class="green">+25.3%</span>
+											</p>
+										</div>
+										<div class="assets__item text-right">
+											<p>1,337.75</p>
+											<p class="gray">$30,767.11</p>
+										</div>
+									</div>
+								</div>
+								<div class="assets__button default-btn">Transfer</div>
+							</div>
+							<div class="assets__block widget">
+								<div class="assets__row">
+									<div class="assets__logo">I</div>
+									<div class="assets__items">
+										<div class="assets__item">
+											<p>ISE</p>
+											<p class="text-small">
+												<span class="gray">$13.42</span>
+												<span class="green">+25.3%</span>
+											</p>
+										</div>
+										<div class="assets__item text-right">
+											<p>2,292</p>
+											<p class="gray text-small">$30,767.11</p>
+										</div>
+									</div>
+								</div>
+								<div class="assets__button default-btn">Transfer</div>
+							</div>
+							<div class="assets__block widget">
+								<div class="assets__row">
+									<div class="assets__logo">W</div>
+									<div class="assets__items">
+										<div class="assets__item">
+											<p>WW</p>
+											<p class="text-small">
+												<span class="gray">$0.282</span>
+												<span class="green">+5.3%</span>
+											</p>
+										</div>
+										<div class="assets__item text-right">
+											<p>106,482.11</p>
+											<p class="gray text-small">$15,028.11</p>
+										</div>
+									</div>
+								</div>
+								<div class="assets__button default-btn">Transfer</div>
+							</div>
+							<div class="assets__block widget">
+								<div class="assets__row">
+									<div class="assets__logo">U</div>
+									<div class="assets__items">
+										<div class="assets__item">
+											<p>ULTI</p>
+											<p class="text-small">
+												<span class="gray">$100.6</span>
+												<span class="green">+2.3%</span>
+											</p>
+										</div>
+										<div class="assets__item text-right">
+											<p>317.75</p>
+											<p class="gray text-small">$9,282.18</p>
+										</div>
+									</div>
+								</div>
+								<div class="assets__button default-btn">Transfer</div>
+							</div>
+							<div class="assets__block widget">
+								<div class="assets__row">
+									<div class="assets__logo">R</div>
+									<div class="assets__items">
+										<div class="assets__item">
+											<p>RUN·THE·B</p>
+											<p class="text-small">
+												<span class="gray">$0.069</span>
+												<span class="green">+0.3%</span>
+											</p>
+										</div>
+										<div class="assets__item text-right">
+											<p>2,317.75</p>
+											<p class="gray text-small">$6,155.18</p>
+										</div>
+									</div>
+								</div>
+								<div class="assets__button default-btn">Transfer</div>
+							</div>
+						</div>
+					</article>
+					<article class="transactions">
+						<div class="title-with-lines">
+							<div class="title-with-lines__item"></div>
+							<h2>Transactions</h2>
+							<div class="title-with-lines__item"></div>
+						</div>
+						<table class="transactions__table">
+							<tr>
+								<th></th>
+								<th></th>
+								<th>Action</th>
+								<th>To</th>
+								<th>Amount</th>
+								<th>Value</th>
+								<th>Status</th>
+							</tr>
+							<tr>
+								<td>#5</td>
+								<td>1/3</td>
+								<td>Transfer AUSY</td>
+								<td>bc1aji...8s2y</td>
+								<td>1,000.00</td>
+								<td>$22,282.03</td>
+								<td>
+									<button class="transactions__button disabled default-btn">
+										<img class="transactions__img" src="./img/process.svg" alt="">
+										Confirm
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>#4</td>
+								<td>2/3</td>
+								<td>Transfer AUSY</td>
+								<td>bc1aji...8s2y</td>
+								<td>500.44</td>
+								<td>$11,141,12</td>
+								<td>
+									<button class="transactions__button active default-btn">
+										<img class="transactions__img" src="./img/check.svg" alt="">
+										Executed
+									</button>
+								</td>
+							</tr>
+						</table>
+					</article>
+				</main>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>

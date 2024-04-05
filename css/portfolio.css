@@ -1,0 +1,159 @@
+.bitcoin__chart{
+	margin: auto 0;
+}
+
+/* MAIN */
+
+.main{
+	margin-top: 12px;
+}
+
+
+/* INFO */
+
+.info{
+	display: flex;
+}
+
+.info__logo{
+	position: relative;
+}
+
+.info__square{
+	position: relative;
+	color: #ffffff80;
+	background-color: #F35C21;
+	width: 116px;
+	height: 116px;
+	border-top: 1px solid #ffffff80;
+	border-left: 1px solid #ffffff38;
+	box-shadow: inset 0px 0px 27px #ffffff26;
+	border-radius: 32px;
+}
+
+.info__img{
+	position: absolute;
+	top: 15px;
+	right: 22px;
+}
+
+.info__wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-left: 24px;
+}
+
+.info__wrapper .info__title{
+	white-space: nowrap;
+}
+
+.info__wrapper .info__title span{
+	font-weight: 400;
+}
+
+.info__block{
+	display: flex;
+}
+
+.info__block p:nth-child(2){
+	margin: 0 8px;
+}
+
+
+.history-allocation{
+	display: flex;
+	margin-top: 32px;
+}
+
+
+/* HISTORY */
+
+.history{
+	display: flex;
+	flex-direction: column;
+}
+
+.history__item{
+	display: flex;
+	justify-content: space-between;
+}
+.history__item:last-child{
+	margin-top: 18px;
+}
+
+.history__title{
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+
+.history__buttons button{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.history__img{
+	margin: auto 0;
+}
+
+
+/* ALLOCATION */
+
+.allocation{
+	display: flex;
+	align-items: center;
+	margin-left: 24px;
+	width: 100%;
+}
+
+.allocation__wrapper{
+	display: flex;
+	align-items: center;
+	margin: 0 3px 0 6px;
+	width: 100%;
+}
+
+.allocation__chart{
+	width: 230px;
+	height: 230px;
+}
+
+.allocation__block{
+	margin-left: 56px;
+	width: 100%;
+}
+
+.allocation__description{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+	font-size: 14px;
+}
+
+.allocation__element{
+	display: flex;
+	align-items: center;
+}
+
+.allocation__circle{
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+.allocation__circle.blue{
+	background-color: #2E4FFF;
+}
+.allocation__circle.green{
+	background-color: #23C953;
+}
+.allocation__circle.yellow{
+	background-color: #FFC24C;
+}
+.allocation__circle.orange{
+	background-color: #FF754A;
+}
+.allocation__circle.violet{
+	background-color: #9B4DFF;
+}
